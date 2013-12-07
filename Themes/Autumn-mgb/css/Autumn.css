@@ -1,0 +1,182 @@
+body {
+    background-color: #666666;
+}
+#center-content-on-page {
+    width: 800px;
+    margin: auto;
+}
+#wrap {
+	width: 800px;	
+}
+#wrap2 {
+	width: 800px;
+	background-color: #FFFFFF;
+	position: relative;
+	border-color: #000000;
+	border-style: solid;
+	border-width: thin;
+	float: left;
+}
+#header {
+	background-color: #000000;
+	background-image: url(../images/headLeaves.png);
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 130px;
+}
+#title {
+	width: 800px;
+	background-color: #000000;
+	background-image: url(../images/titleBackground.png);
+	background-repeat: no-repeat;
+	vertical-align: bottom;
+	text-align: left;
+}
+#find {
+	float: right;
+	vertical-align: middle;
+	text-align: right;
+	margin-top: 4px;
+	margin-right: 4px;
+}
+#main {
+	float: left;
+	background-color: #FFFFFF;
+	border-color: #000000;
+	border-style: solid;
+	border-width: thin;
+	width: 800px;
+}
+#content{
+	float: left;
+	text-align: left;
+	width: 560px;
+}
+#content2{
+	padding-top: 4px;
+	padding-right: 20px;
+        padding-left: 20px;
+}
+#sidebar {
+	float: right;
+	width: 230px;
+	position: relative;
+	margin-right: 4px;
+}
+#comments {
+        position: relative;
+        float: left;
+        width: 100%;
+}
+#comments2 {
+        background-color: #DDDDDD;
+        padding: 4px;
+}
+a:link {
+	color: #224455;
+}
+a:visited {
+	color: #666666;
+}
+#sidebar a:link {
+	color: #000000;
+	text-decoration: none;
+}
+#sidebar a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+.blogTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.findBox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #ffffff;
+}
+.storyDate {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #224455;
+	font-weight: bold;
+}
+.storyTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	color: #000000;
+}
+.storyContent {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #000000;
+}
+.storyFoot {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+}
+.sideBarTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+}
+.sideBarLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+/*http://stackoverflow.com/questions/1027354/need-a-unordered-list-without-any-bullets for below*/
+.sideBarLink ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-transform: uppercase;
+	color: #000000;
+}
+.code {
+	font-size: medium;
+        color: #224455;
+	margin-left: 20px;
+}
+.comment {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: small;
+        color: #000000;
+}
+.commentAuthor {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: x-small;
+        color: #224455;
+        font-weight: bold;
+}
+.commentSubject {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: small;
+        color: #000000;
+        font-weight: bold;
+        text-transform: uppercase;
+}
+.writebackResponse {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: small;
+        color: #000000;
+        font-weight: bold;
+	font-style: italic;
+	background-color: #BBAA88;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}

@@ -1,0 +1,82 @@
+<!-- blosxom content_type text/html -->
+<!-- blosxom head -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>$blog_title - $blog_description</title>
+    <!-- Page viewed: $hitcounter::count times -->
+    <link rel="alternate"
+	  type="application/rss+xml"
+	  title="RSS" href="$url/index.rss" />
+    <meta http-equiv="Content-Type"
+	  content="text/html; charset=iso-8859-1" />
+    <link type="text/css"
+	  rel="stylesheet"
+	  href="./css/Autumn.css">
+  </head>
+  <body>
+    <div id="center-content-on-page">
+      <div id="wrap">
+	<div id="wrap2">
+	  <div id="header">
+	  </div>
+	  <div id="title">
+	    <div id="find" class="findBox">$find::searchform</div>
+	    <div class="blogTitle">&nbsp;$blog_title</div>
+	  </div>
+	  <div id="content">
+	    <div id="content2">
+	      <!-- blosxom date -->
+	      <!-- blosxom story -->
+	      <!-- begin post -->
+	      <div class="story-date-title">
+		<div class="storyDate">$da/$mo/$yr</div>
+		<div class="storyTitle">$title</div>
+	      </div>
+	      <div class="storyContent">$body</div>
+	      <p class="storyFoot">Path: $path | <a href="$url$path/$fn.$flavour#comments">$writeback::count comments</a> | <a href="$url$path/$fn.$flavour">Link</a></p>
+	      <p><a name="comments"></a>&nbsp;</p>
+	      $writeback::writeback_response
+	      $writeback::writebacks
+	      $writeback::form
+	      <!-- end post -->
+	      <!-- blosxom foot -->
+	    </div><!-- end content2 -->
+	  </div> <!-- end content -->
+	  <div id="sidebar">
+	    <div align="center">
+              <div class="sideBarTitle">:: Categories ::</div>
+              $menu::rootmenu
+              <hr />
+              <div class="sideBarTitle">:: Links ::</div>
+              <div class="sideBarLink">
+		<ul>
+		  <li><a href="http://fedora.redhat.com">Fedora Home</a></li>
+		  <li><a href="http://www.fedoranews.org">Fedora News</a></li>
+		  <li><a href="http://www.fedoraproject.org">Fedora Project</a></li>
+		  <li><a href="http://news.google.com.au">Google News</a></li>
+		  <li><a href="http://www.osnews.com">OS News</a></li>
+		  <li><a href="http://slashdot.org">Slashdot</a></li>
+		</ul>
+              </div><!-- end categories -->
+              <hr />
+              <div class="sideBarTitle">:: Archives ::</div>
+              <div class="sideBarLink">$archives::archives</div>
+              <hr />
+              <div class="sideBarTitle">:: Site ::</div>
+              <div class="sideBarLink">
+		<ul>
+		  <li><a href="mailto:">Email</a></li>
+		  <li><a href="$url/site/colophon.$flavour">Colophon</a></li>
+		</ul>
+              </div>
+              <hr />
+              <div><a href="http://www.blosxom.com"><img src="./images/powered_by_01.gif" width="90" height="33" border="1" /></a></div>
+	    </div><!-- end align center -->
+	  </div><!-- end sidebar -->
+	</div><!-- end wrap2 -->
+      </div> <!-- end wrap -->
+    </div> <!-- end center div -->
+  </body>
+</html>
