@@ -13,7 +13,7 @@
 	  content="text/html; charset=iso-8859-1" />
     <link type="text/css"
 	  rel="stylesheet"
-	  href="./css/Autumn.css">
+	  href="./css/Autumn.css" />
   </head>
   <body>
     <div id="center-content-on-page">
@@ -45,7 +45,7 @@
 	    </div><!-- end content2 -->
 	  </div> <!-- end content -->
 	  <div id="sidebar">
-	    <div align="center">
+<!--	    <div align="center"> -->
               <div class="sideBarTitle">:: Categories ::</div>
               $menu::rootmenu
               <hr />
@@ -72,8 +72,8 @@
 		</ul>
               </div>
               <hr />
-              <div><a href="http://www.blosxom.com"><img src="./images/powered_by_01.gif" width="90" height="33" border="1" /></a></div>
-	    </div><!-- end align center -->
+              <div id="blosxom-logo"><a href="http://blosxom.sourceforge.net"><img id="blosxom-logo-image" src="./images/powered_by_01.gif" alt="Blosxom logo" title="Blosxom logo" /></a></div>
+<!--	    </div>--><!-- end align center -->
 	  </div><!-- end sidebar -->
 	</div><!-- end wrap2 -->
       </div> <!-- end wrap -->
