@@ -13,7 +13,7 @@
 	  content="text/html; charset=iso-8859-1" />
     <link type="text/css"
 	  rel="stylesheet"
-	  href="./css/Autumn.css" />
+          href="$theme::theme_dir_url/html/css/Autumn.css" />
   </head>
   <body>
     <div id="center-content-on-page">
@@ -72,7 +72,7 @@
 		</ul>
               </div>
               <hr />
-              <div id="blosxom-logo"><a href="http://blosxom.sourceforge.net"><img id="blosxom-logo-image" src="./images/powered_by_01.gif" alt="Blosxom logo" title="Blosxom logo" /></a></div>
+              <div id="blosxom-logo"><a href="http://blosxom.sourceforge.net"><img id="blosxom-logo-image" src="$theme::theme_dir_url/html/images/powered_by_01.gif" alt="Blosxom logo" title="Blosxom logo" /></a></div>
 <!--	    </div>--><!-- end align center -->
 	  </div><!-- end sidebar -->
 	</div><!-- end wrap2 -->
